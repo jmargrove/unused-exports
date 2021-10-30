@@ -8,3 +8,6 @@ test:
 
 packages:
 	pip freeze > requirements.txt
+
+dev:
+	nodemon --exec "python3" main.py
