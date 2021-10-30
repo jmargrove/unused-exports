@@ -1,0 +1,18 @@
+{
+  "python.linting.enabled": true,
+  "python.pythonPath": ".pyenv/bin/python",
+  "python.linting.pylintPath": "${workspaceRoot}/.pyenv/bin/yapf",
+  "python.linting.pylintEnabled": true,
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "yapf",
+  "python.autoComplete.extraPaths": ["packages/padawan-model"],
+  "python.analysis.extraPaths": ["packages/padawan-model"],
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.autoSearchPaths": false,
+  "python.analysis.typeCheckingMode": "strict",
+  "editor.semanticTokenColorCustomizations": {
+    "[One Dark Pro]": {
+      "enabled": true,
+    }
+  }
+}
